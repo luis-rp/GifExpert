@@ -8,7 +8,7 @@ export const GifGridItem = ({id,title,url}:Props) => {
     return (
         <div className="card">
             <img src={url} alt={title}/>
-            {title}
+            <p>{title}</p>
         </div>
     )
 }
